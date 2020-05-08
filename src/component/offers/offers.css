@@ -1,0 +1,66 @@
+.offers{
+    background-color: #F8F9FA;
+    padding: 80px 0px 100px;
+}
+
+.offers .boxo{
+    background-color: white;
+}
+.offers  h2{
+    text-align: center;
+    margin-bottom: 90px;
+    color: #4D4D4D;
+}
+.offers h2::after{
+    content: "";
+    height: 1px;
+    margin: auto;
+    display: block;
+    position: relative;
+    width: 100px;
+    top: 30px;
+    background-color: crimson;
+  
+}
+.offers .boxo .des-box{
+    padding: 30px 30px 40px 20px;
+}
+.offers .boxo .des-box h5{
+    margin-bottom: 20px;
+}
+.offers .boxo .des-box p{
+    font-size: 18px;
+    color: gray;
+    font-weight: 480;
+    line-height: 1.5;
+}
+.offers .boxo .des-box button{
+    display: block;
+    font-size: 14px;
+    border-radius: 25px;
+    margin: 30px 0px 0px;
+    background-color: #E55171;
+    color: white;
+    border: 1px solid #E55171;
+    padding: 10px 20px;
+    transition: all 0.2s ease-in-out;
+}
+.offers .boxo .des-box button:hover{
+    background-color: crimson;
+}
+
+
+.offers .boxo .image-box{
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+
+}
+.offers .boxo .image-box img{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+    height: 100%;
+
+}

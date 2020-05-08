@@ -1,0 +1,63 @@
+.header .backk{
+    background-image: url("/images/hero_bg_1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 970px;
+    position: relative;
+}
+.header .overlayy{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header .boxx{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header .boxx .titlee{
+    font-size: 70px;
+    color: white;
+    font-weight: 400;
+
+}
+@media (max-width: 576px) {
+    .header .boxx .titlee{
+        font-size: 55px;
+    }
+    .header .type {
+        font-size: 60px;
+}
+}
+.header .type {
+    color: #E55171;
+    font-size: 70px;
+    font-weight: 400;
+}
+.header .cursor {
+    color: #fff;
+}
+.header .boxx button {
+    display: block;
+    font-size: 18px;
+    border-radius: 25px;
+    margin: 80px auto 0px;
+    background-color: #E55171;
+    color: white;
+    border: 1px solid #E55171;
+    padding: 15px 25px;
+    transition: all 0.2s ease-in-out;
+    outline: transparent;
+}
+.header .boxx button:hover {
+    background-color: crimson;
+    border: 1px solid crimson;
+
+}

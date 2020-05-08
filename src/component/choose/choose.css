@@ -1,0 +1,52 @@
+.choose .img-box{
+    overflow: hidden;
+    padding-right: 0px;
+}
+.choose .img-box img{
+    width: 100%;
+    height: 100%;
+}
+.choose .desc-box{
+    background-color: #E55171;
+    color: white;
+    width: 100%;
+    padding: 100px 90px 0px;
+}
+.choose .desc-box h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    font-size: 40px;
+
+}
+.choose .desc-box p.second{
+    font-size: 20px;
+    line-height: 1.7;
+    color: lightgray;
+    margin-bottom: 60px;
+}
+.choose .desc-box .coun{
+    font-size: 90px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.choose .desc-box span{
+    font-size: 80px;
+}
+.choose .desc-box .increnum p{
+    color: lightgray;
+    font-size: 12px;
+}
+@media (max-width: 1200px) and (min-width: 767px){
+    .choose .desc-box .coun,
+    .choose .desc-box span{
+        font-size: 50px;
+    }
+    .choose .desc-box .increnum p{
+        font-size: 10px;
+    }
+    .choose .desc-box{
+        padding: 80px 30px 0px;
+    }  
+    .choose .desc-box h2{
+        font-size: 32px;
+    } 
+}

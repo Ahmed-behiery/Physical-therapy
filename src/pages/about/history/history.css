@@ -1,0 +1,47 @@
+.history{
+    padding: 80px 0px 120px;
+}
+.history .his-img,
+.history .his-des{
+    margin-bottom: 25px;
+}
+.history .his-img{
+    width: 100%;
+    overflow: hidden;
+}
+.history .his-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+.history .his-des{
+    padding-left: 50px;
+    margin-bottom: 65px;
+}
+.history .his-des h2{
+    color: #E55171;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+}
+.history .his-des p{
+    /* color: #4D4D53; */
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.history .his-des p.first{
+    color: #4D4D4D;
+    font-size: 20px;
+    font-weight: 500;
+}
+.history .his-des i {
+    color: limegreen;
+    margin-right: 20px;
+}
+.history .his-des div{
+    margin-bottom: 15px;
+}
+@media (max-width: 992px){
+    .history .fir{
+        text-align: center;
+    }
+
+}

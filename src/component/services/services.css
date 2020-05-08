@@ -1,0 +1,52 @@
+.servicesss{
+    padding: 40px 0px 120px;
+}
+.servicess .box {
+    width: 25% !important;
+    margin-bottom: 40px;
+}
+.servicess .box .img-box{
+    overflow: hidden;
+}
+.servicess .box .img-box{
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.servicess .box .img-box img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+    transition: all 0.5s ease-in-out;
+}  
+.servicess .box:hover .img-box img{
+    transform: scale(1.1);
+}
+.servicess .box .desc-box h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.servicess .box .desc-box p {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: gray;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.servicess .box .desc-box span {
+    color: #E55171;
+    font-weight: 500;
+    font-size: 17px;
+}
+.servicess .box .desc-box span i{
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+
+}
+.servicess .box .desc-box span:hover i{
+    transform: translateX(10px);
+}
+
+
+

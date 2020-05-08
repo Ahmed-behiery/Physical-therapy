@@ -1,0 +1,19 @@
+.footer{
+    padding: 20px 0px 100px;
+}
+.footer p{
+    color: #737373;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer p i{
+    color: #E55171;
+}
+.footer p a {
+    color: #737373;
+    transition: all 0.2s ease-in-out;
+}
+.footer p a:hover{
+    color : #E55171;
+    text-decoration: none;
+}

@@ -1,0 +1,69 @@
+.section{
+    padding: 100px 0px 150px;
+}
+.section  h2{
+    text-align: center;
+    margin-bottom: 90px;
+    color: #4D4D4D;
+}
+.section h2::after{
+    content: "";
+    height: 1px;
+    margin: auto;
+    display: block;
+    position: relative;
+    width: 100px;
+    top: 30px;
+    background-color: crimson;
+  
+}
+.section .services-sec {
+    margin-bottom: 50px;
+}
+.section .services-sec:hover img{
+    transform: scale(1.1);
+}
+.section .image-box{
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 8px;
+
+}
+.section .image-box{
+    margin-bottom: 20px;
+}
+.section .image-box img{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+
+}
+.section .services-sec .descc-box h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.section .services-sec .descc-box p {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: gray;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.section .services-sec .descc-box span {
+    color: #E55171;
+    font-weight: 500;
+    font-size: 17px;
+}
+.section .services-sec .descc-box span i{
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+
+}
+.section .services-sec .descc-box span:hover i{
+    transform: translateX(10px);
+}
+

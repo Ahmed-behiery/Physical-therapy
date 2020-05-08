@@ -1,0 +1,63 @@
+.job{
+    padding: 90px 0px 150px;
+}
+.job .card{
+    margin-bottom: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.job .card h5{
+    color: #E55171;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.job .card .card-body{
+    padding: 20px 20px 45px;
+}
+.job .card p:first-of-type {
+    color: gray;
+    font-size: 16px;
+    font-weight: 500;
+}
+.job .card p:first-of-type span{
+    color: #E55171;
+    cursor: pointer;
+}
+.job .card p:last-of-type{
+    font-size: 18px;
+}
+.job .next form label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.job .next form{
+    margin-bottom: 45px;
+}
+.job .next form input:focus{
+    outline: 1px solid #E55171;
+    box-shadow: none;
+    border: none;
+}
+.job .next h4{
+    font-weight: 450;
+    margin-bottom: 25px;
+}
+.job .next ul{
+    margin-bottom: 50px;
+}
+.job .next ul li{
+    color: #E55171;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.job .next ul li:hover{
+    color: crimson
+}
+.job .next ul li span{
+    color: black;
+    font-style: italic;
+    font-weight: 450;
+    cursor: initial;
+}
